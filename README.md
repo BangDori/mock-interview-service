@@ -1,46 +1,113 @@
-# Getting Started with Create React App
+# CS Interview in Web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+해당 사이트는 다른 개발자분들의 모의 면접을 진행하는 사이트입니다.
 
-## Available Scripts
+1. [인성 면접 질문 리스트](#인성-면접-질문-리스트)
+2. [CS 면접 질문 리스트](#CS-면접-질문-리스트)
+3. [프론트엔드 질문 리스트](#프론트엔드-질문-리스트)
+4. [백엔드 질문 리스트](#백엔드-질문-리스트)
 
-In the project directory, you can run:
+## 인성 면접 질문 리스트
 
-### `npm start`
+- 자기소개 부탁드립니다.
+- 왜 개발자가 되고 싶은가요? (전업했다면 그 이유)
+- 개발자는 어떤 직업이라고 생각하나요?
+- 본인이 생각하는 본인의 성격 장단점은 무엇인가요?
+- 왜 굳이 프론트엔드를 선택했나요? 프론트엔드란 어떤 분야인가요?
+- 개발자로서 중요하게 생각하는 점이 있다면 무엇인가요?
+- 개발은 평생 공부해야 하는 분야인데 어떤 식으로 학습을 하고 있나요? 본인만의 학습법이 있다면?
+- 개발자로서 목표가 무엇인가요? 혹은 본인의 인생의 목표가 무엇인가요?
+- 최근 공부해보고 싶은 기술이 있다면 무엇이 있을까요?
+- 스트레스 관리는 어떻게 하시나요?
+- 프론트엔드는 기술이 빠르게 변화하는데 두려워하진 않나요?
+- 프로젝트를 진행하면서 어려웠던 점과 어떻게 극복했는지 말해주세요.
+- 저희 회사에 지원하신 이유 또는 동기가 뭔가요?
+- 개발과 관련해서 기존의 생각을 뒤엎을만큼 강한 인상을 받았던 글이나 영상이 있으면 소개해주세요.
+- 요즘은 어떤 공부를 하고 계신가요?
+- 향후 커리어 적으로 목표가 있나요?
+- 협업에서 기억에 가장 남는 상황에 대해 설명해주세요.
+- 협업에서 어려웠던 경험이 있었나요?
+- 자기 주장이 매우 강한 사람과 소통할 경우 어떻게 대응했었나요?
+- 좋은 팀장의 기준은 뭘까요?
+- 좋은 팀원의 기준은 뭘까요?
+- 팀장 역할을 맡았을 때, 지원자님에게 비협조적이고 적대적인 팀원이 있다면 어떻게 대처하실건가요?
+- “팀에서 1인분을 한다”고 할 때, 1인분은 어떤걸 의미하는걸까요?
+- 코드 리뷰로 인해 본인의 코드를 전부 고쳐야한다면 어떻게 할 것인가요?
+- 훗날 현업에서 일하면서 기술적인 어려움 등으로 개발자가 된 것을 후회할 상황이 생긴다면 어떻게 할 것인가요?
+- 최신 기술 트렌드는 어떻게 추적하시나요? 그렇게 찾은 최신 기술을 사용해보신 적이 있나요?
+- 개발 기간을 촉박하게 요구하는 경우 어떻게 하시나요?
+- 슬럼프가 올때 어떻게 대처 하시나요?
+- 수행해야 하는 주제가 굉장히 어려운 주제라서, 나혼자서 해결 못
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## CS 면접 질문 리스트
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- 브라우저 렌더링 원리를 설명해보세요.
+- 주소창에 www.google.com을 입력하면 생기는 일을 설명해주세요.
+- 웹 프로토콜이란?
+- HTTP와 HTTPS의 차이점을 말해주세요.
+- RESTFUL API란?
+- get, post 차이를 설명해주세요.
+- 브라우저 저장소 (로컬 스토리지, 세션 스토리지, 쿠키의 차이)
+- JWT란?
+- CORS란?
+- MVC와 MVVM 패턴의 차이를 설명해주세요.
+- OOP (Object Oriented Programming)란 무엇인가요?
+- CSR과 SSR의 차이를 설명해주세요.
+- SPA와 MPA의 차이를 설명해주세요.
+- Git을 사용해보셨나요? Git에 대해 아는 것을 말해보세요.
+- 깊은복사와 얕은복사의 차이점을 말해주세요.
+- 크로스 브라우징이란?
+- 라이브러리와 프레임워크에 대해 설명해주세요.
+- DNS에 대해 설명해주세요.
+- REST API에 대해 설명해주세요.
+- 자료구조 stack과 queue에 대해 설명해주세요.
+- 프로세스와 스레드에 대해 설명해주세요.
+- 어떤 프레임워크를 사용하여 개발했나요? 왜 그 프레임워크를 선택했나요?
+- RESTful API에 대해 설명해주세요.
+- HTTP 메소드에 대한 설명을 해주실 수 있나요?
+- CSRF나 XSS 공격을 막는 방법은?
+- HTTP의 PUT, PATCH를 비교 설명해주세요.
+- HTTP의 Status Code에 대해 설명해주세요.
+- HTTPS의 동작 방식에 대해 설명해주세요.
+- TCP와 UDP를 비교 설명해주세요.
+- TCP가 신뢰성을 보장하는 방법에 대해 설명해주세요.
+- TCP의 3-Way-Handshake와 4-Way-Handshake에 대해 설명해주세요.
+- 운영체제의 정의에 대해 설명해주세요.
+- 운영체제의 메모리 영역에 대해 설명해주세요.
+- 프로세스와 스레드를 비교 설명해주세요.
+- 스레드에서 독립적인 Stack 메모리 영역이 필요한 이유에 대해 설명해주세요.
+- 멀티 프로세스와 멀티 스레드를 비교 설명해주세요.
+- 문맥 전환 (Context Switch)에 대해 설명해주세요.
+- 교착상태 (Deadlock)에 대해 설명해주세요.
+- 교착상태의 발생 조건에 대해 설명해주세요.
+- 페이징과 세그멘테이션에 대해 설명해주세요.
+- 메모리 단편화에 대해 설명해주세요.
+- 기아 상태에 대해 설명해주세요.
+- 경쟁 상태에 대해 설명해주세요.
+- 뮤텍스와 세마포어에 대해 설명해주세요.
+- 가상 메모리에 대해 설명해주세요.
+- 페이지 교체 알고리즘을 아는대로 설명해주세요.
+- 요구 페이징에 대해 설명해주세요.
+- 스택과 큐의 차이점에 대해 설명해주세요.
+- 좋은 코드의 조건이 뭘까요?
+- 좋은 알고리즘의 조건이 뭘까요?
+- 정확도가 동일하다면 그 다음으로 고려해야 될 조건이 뭘까요?
+- 시간 복잡도는 매우 낮지만 메모리를 매우 많이 사용한다면 어떻게 대처할 수 있을까요?
+- 완벽한 보안을 갖출 수 있는 알고리즘이 있을까요?
+- 알고리즘은 어떻게 공부하셨나요?
+- 풀었던 알고리즘 문제 중에서 어려웠던 개념은 어떤게 있나요?
+- 재귀를 사용하지 않고 DFS와 BFS를 구현한다면 어떻게 할 수 있을까요?
+- Array와 연결 리스트를 비교 설명해주세요.
+- 단일 연결 리스트와 이중 연결 리스트를 비교 설명해주세요.
+- 힙에 대해 설명해주세요.
+- 이진 트리와 완전 이진 트리에 대해 설명해주세요.
+- 해시 테이블에 대해 설명해주세요.
+- 좋은 해시 함수의 조건은 뭘까요?
 
-### `npm test`
+## 프론트엔드 질문 리스트
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 준비중인 서비스입니다.
 
-### `npm run build`
+## 백엔드 질문 리스트
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- 준비중인 서비스입니다.
