@@ -1,3 +1,6 @@
+@import '@styles/media/mixin';
+
+// desktop (1024px ~
 .home-layout {
   width: 100%;
   height: 100%;
@@ -30,7 +33,10 @@
     align-items: center;
 
     .w-btn {
+      font-size: 16px;
       margin: 20px;
+      width: 96px;
+      text-align: center;
 
       position: relative;
       border: none;
@@ -62,6 +68,78 @@
     .navigation-info {
       width: 360px;
       font-size: 16px;
+    }
+  }
+}
+
+// tablet (768 ~ 1023px)
+@include tablet {
+  .home-layout {
+    .home-title {
+      height: 96px;
+
+      .title-txt {
+        font-size: 32px;
+      }
+
+      .description {
+        margin-top: 8px;
+        font-size: 12px;
+      }
+    }
+
+    .navigation-container {
+      .w-btn {
+        font-size: 12px;
+        margin: 10px;
+        width: 64px;
+
+        padding: 10px 20px;
+        border-radius: 7px;
+      }
+
+      .navigation-info {
+        width: 240px;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+// mobile (~ 767px)
+@include mobile {
+  .home-layout {
+    .home-title {
+      height: 96px;
+
+      .title-txt {
+        font-size: 36px;
+      }
+
+      .description {
+        margin-top: 8px;
+        font-size: 12px;
+      }
+    }
+
+    .navigation-container {
+      .w-btn {
+        font-size: 12px;
+        margin: 10px;
+        width: 64px;
+
+        padding: 10px 20px;
+        border-radius: 7px;
+
+        &:active,
+        &:hover {
+          transform: none;
+        }
+      }
+
+      .navigation-info {
+        display: none;
+      }
     }
   }
 }

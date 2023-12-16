@@ -1,3 +1,6 @@
+@import '@styles/media/mixin';
+
+// desktop (1024px ~
 .interview-layout {
   width: 100%;
   height: 100%;
@@ -10,6 +13,28 @@
   gap: 64px;
 
   .interviewer-image {
-    width: 720px;
+    width: 744px;
+  }
+}
+
+// tablet (768 ~ 1023px)
+@include tablet {
+  .interview-layout {
+    gap: 48px;
+
+    .interviewer-image {
+      width: 744px;
+    }
+  }
+}
+
+// mobile (~ 767px)
+@include mobile {
+  .interview-layout {
+    gap: 32px;
+
+    .interviewer-image {
+      width: 396px;
+    }
   }
 }

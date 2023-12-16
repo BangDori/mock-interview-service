@@ -1,3 +1,6 @@
+@import '@styles/media/mixin';
+
+// desktop (1024px ~
 .interview-container {
   display: flex;
   justify-content: center;
@@ -37,6 +40,66 @@
         letter-spacing: 2px;
         transform: scale(1.25);
         cursor: pointer;
+      }
+    }
+  }
+}
+
+// tablet (768 ~ 1023px)
+@include tablet {
+  .interview-container {
+    .question-box {
+      flex-direction: column;
+
+      width: 744px;
+      height: 96px;
+
+      .question {
+        font-size: 24px;
+        height: 72px;
+      }
+
+      .next-arrow-btn {
+        position: relative;
+        top: 0;
+        right: 0;
+
+        width: 36px;
+        height: 36px;
+
+        &:hover {
+          transform: none;
+        }
+      }
+    }
+  }
+}
+
+// mobile (~ 767px)
+@include mobile {
+  .interview-container {
+    .question-box {
+      flex-direction: column;
+
+      width: 396px;
+      height: 72px;
+
+      .question {
+        font-size: 14px;
+        height: 64px;
+      }
+
+      .next-arrow-btn {
+        position: relative;
+        top: 0;
+        right: 0;
+
+        width: 32px;
+        height: 32px;
+
+        &:hover {
+          transform: none;
+        }
       }
     }
   }
