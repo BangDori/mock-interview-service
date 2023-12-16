@@ -1,14 +1,14 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
-import RootLayout from "./page/RootLayout";
-import HomeLayout from "./page/HomeLayout";
+import RootLayout from '@pages/RootLayout';
+import HomeLayout from '@pages/HomeLayout';
 
-import InterviewPage, { loader as questionLoader } from "./page/InterviewPage";
-import ExitPage from "./page/ExitPage";
+import InterviewPage, { loader as questionLoader } from '@pages/InterviewPage';
+import ExitPage from '@pages/ExitPage';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <RootLayout />,
     children: [
       {
@@ -16,12 +16,12 @@ const router = createBrowserRouter([
         element: <HomeLayout />,
       },
       {
-        path: "interview",
+        path: 'interview',
         element: <InterviewPage />,
         loader: questionLoader,
       },
       {
-        path: "exit",
+        path: 'exit',
         element: <ExitPage />,
       },
     ],

@@ -1,4 +1,4 @@
-import Exit from "../components/Exit";
+import Exit from '@components/Exit';
 
 const ExitPage = () => {
   return <Exit />;

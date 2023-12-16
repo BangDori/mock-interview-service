@@ -1,6 +1,4 @@
-import styled from "styled-components";
-
-const InterviewContainer = styled.section`
+.interview-container {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -42,6 +40,4 @@ const InterviewContainer = styled.section`
       }
     }
   }
-`;
-
-export default InterviewContainer;
+}
