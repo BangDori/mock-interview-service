@@ -12,7 +12,7 @@ function convertNumberToTimeStamp(timer: number) {
   return `${hour}:${min}`;
 }
 
-const timeStamps = [];
+const timeStamps: string[] = [];
 
 const Interview: React.FC<{ questions: Question[] }> = ({ questions }) => {
   const [id, setId] = useState<number>(0);
@@ -27,13 +27,14 @@ const Interview: React.FC<{ questions: Question[] }> = ({ questions }) => {
   }, [id]);
 
   const nextQuestion = () => {
+    timeStamps.push(convertNumberToTimeStamp(timer));
+
     if (id === questions.length - 1) {
-      navigate('/exit');
+      navigate('/exit', { state: { timeStamps, questions } });
       return;
     }
 
     setId((prevId) => prevId + 1);
-    timeStamps.push(timer);
     setTimer(0);
     if (timerRef.current !== null) {
       clearInterval(timerRef.current);
