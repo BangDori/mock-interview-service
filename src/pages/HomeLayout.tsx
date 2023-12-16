@@ -26,20 +26,12 @@ const HomeLayout = () => {
         </p>
       </div>
       <div className='navigation-container'>
-        <button
-          type='button'
-          className='w-btn w-btn-blue'
-          onClick={() => alert('준비중인 서비스입니다.')}
-        >
+        <Link to='/' className='w-btn w-btn-blue'>
           프론트엔드
-        </button>
-        <button
-          type='button'
-          className='w-btn w-btn-blue'
-          onClick={() => alert('준비중인 서비스입니다.')}
-        >
+        </Link>
+        <Link to='/' className='w-btn w-btn-blue'>
           백엔드
-        </button>
+        </Link>
         <p className='navigation-info'>
           <strong>인성, CS 및 해당 직무에 대한 면접</strong>을 진행합니다.
           <br />(<strong>1시간 가량</strong> 소요 예정)
