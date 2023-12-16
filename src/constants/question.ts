@@ -18,7 +18,7 @@ const TYPE_COLLECTIONS: QuestionTypeCollection = Object.freeze({
   },
   cs: {
     name: 'cs',
-    count: 15,
+    count: 25,
   },
 });
 
