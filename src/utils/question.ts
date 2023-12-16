@@ -1,5 +1,5 @@
-import { QUESTION_COLLECTIONS, TYPE_COLLECTIONS } from '../constants/question';
-import { Question } from '../custom/types/Question';
+import { QUESTION_COLLECTIONS, TYPE_COLLECTIONS } from '@constants/question';
+import { Question } from '@custom/types/Question';
 import { shuffle } from './util';
 
 export function getQuestionByType(clickedType: string): Question[] {

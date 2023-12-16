@@ -1,9 +1,10 @@
-import personality from './personality';
-import cs from './cs';
 import {
   QuestionCollection,
   QuestionTypeCollection,
-} from '../custom/types/Question';
+} from '@custom/types/Question';
+
+import personality from './personality';
+import cs from './cs';
 
 const QUESTION_COLLECTIONS: QuestionCollection = Object.freeze({
   personality,

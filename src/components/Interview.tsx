@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import nextArrowBtn from '../assets/next_arrow_button.png';
-import { Question } from '../custom/types/Question';
+import nextArrowBtn from '@assets/next_arrow_button.png';
+import { Question } from '@custom/types/Question';
 import '@styles/InterviewContainer.scss';
 
 const Interview: React.FC<{ questions: Question[] }> = ({ questions }) => {

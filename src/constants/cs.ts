@@ -1,4 +1,4 @@
-import { Question } from '../custom/types/Question';
+import { Question } from '@custom/types/Question';
 
 const cs: Question[] = [
   {
