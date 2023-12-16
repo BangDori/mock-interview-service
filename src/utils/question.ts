@@ -1,6 +1,6 @@
-import { QUESTION_COLLECTIONS, TYPE_COLLECTIONS } from "../constants/question";
-import { Question } from "../types/Question";
-import { shuffle } from "./util";
+import { QUESTION_COLLECTIONS, TYPE_COLLECTIONS } from '@constants/question';
+import { Question } from '@custom/types/Question';
+import { shuffle } from './util';
 
 export function getQuestionByType(clickedType: string): Question[] {
   const questions: Question[] = [];
@@ -20,7 +20,7 @@ export function getShuffleQuestions(questions: Question[]): Question[] {
 
 export function getQuestionAsCount(
   questions: Question[],
-  count: number
+  count: number,
 ): Question[] {
   return questions.slice(0, count);
 }

@@ -1,6 +1,10 @@
-import personality from "./personality";
-import cs from "./cs";
-import { QuestionCollection, QuestionTypeCollection } from "../types/Question";
+import {
+  QuestionCollection,
+  QuestionTypeCollection,
+} from '@custom/types/Question';
+
+import personality from './personality';
+import cs from './cs';
 
 const QUESTION_COLLECTIONS: QuestionCollection = Object.freeze({
   personality,
@@ -9,12 +13,12 @@ const QUESTION_COLLECTIONS: QuestionCollection = Object.freeze({
 
 const TYPE_COLLECTIONS: QuestionTypeCollection = Object.freeze({
   personality: {
-    name: "personality",
+    name: 'personality',
     count: 10,
   },
   cs: {
-    name: "cs",
-    count: 15,
+    name: 'cs',
+    count: 25,
   },
 });
 
