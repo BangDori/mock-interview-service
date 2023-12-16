@@ -2,9 +2,20 @@
 
 // desktop (1024px ~
 .interview-container {
+  position: relative;
   display: flex;
   justify-content: center;
   width: 100%;
+
+  .timer-box {
+    z-index: 999;
+    position: absolute;
+    top: -520px;
+
+    .timer {
+      font-size: 28px;
+    }
+  }
 
   .question-box {
     position: relative;
@@ -48,6 +59,14 @@
 // tablet (768 ~ 1023px)
 @include tablet {
   .interview-container {
+    .timer-box {
+      top: -520px;
+
+      .timer {
+        font-size: 24px;
+      }
+    }
+
     .question-box {
       flex-direction: column;
 
@@ -78,6 +97,14 @@
 // mobile (~ 767px)
 @include mobile {
   .interview-container {
+    .timer-box {
+      top: -280px;
+
+      .timer {
+        font-size: 20px;
+      }
+    }
+
     .question-box {
       flex-direction: column;
 
